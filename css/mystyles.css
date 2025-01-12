@@ -7,3 +7,34 @@ section.cta:before {
 .btn {
     background: linear-gradient(90deg, #34a0a4, #1a759f) !important;
 }
+.icon-gradient {
+    background: linear-gradient(0deg, #34a0a4, #1a759f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-brand:hover {
+    background: linear-gradient(90deg, #34a0a4, #1a759f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+.nav-link:hover {
+    background: linear-gradient(90deg, #34a0a4, #1a759f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+.nav-link.active {
+    background: linear-gradient(90deg, #34a0a4, #1a759f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-link {
+    transition: background 0.4s ease, -webkit-text-fill-color 0.4s ease;
+}
+.btn-primary {
+    --bs-btn-border-color: linear-gradient(90deg, #34a0a4, #1a759f);
+    --bs-btn-hover-border-color: linear-gradient(90deg, #34a0a4, #1a759f);
+    --bs-btn-active-border-color: linear-gradient(90deg, #34a0a4, #1a759f);
+    --bs-btn-disabled-border-color: linear-gradient(90deg, #34a0a4, #1a759f);
+}
