@@ -1,0 +1,9 @@
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(90deg, #34a0a4, #1a759f) !important;
+}
+section.cta:before {
+    background: linear-gradient(90deg, #34a0a4, #1a759f) !important;
+}
+.btn {
+    background: linear-gradient(90deg, #34a0a4, #1a759f) !important;
+}
